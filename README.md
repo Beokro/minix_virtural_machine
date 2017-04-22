@@ -38,17 +38,17 @@ Minix 3 is a free and open-source operating system. Its source file can be downl
 
 # Loading Image
 
-1. Now we have all the matrials we need to start the insatllation. Let's go ahead and load the Minix image into the Virtual Box. Open the Virtual Box application. If you can not find it, press F4 to enter the application page and use the serach bar at top to locate Virtual Box. 
+1. Now we have all the matrials we need to start the insatllation. Let's go ahead and load the Minix image into the Virtual Box. Open the Virtual Box application. If you can not find it, press F4 to enter the application page and use the serach bar at top to locate Virtual Box. <br>
 
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/6.png" width='400' height='300'/> 
 <br><br>
 
-2. Click new button on the top left of the window to create a new virtual machine. You can use whatever name you want, in this case we will just name it minix 3. Choose the type to be `Other` and the version to be `Other/Unknown`. Click continue.
+2. Click new button on the top left of the window to create a new virtual machine. You can use whatever name you want, in this case we will just name it minix 3. Choose the type to be `Other` and the version to be `Other/Unknown`. Click continue. <br>
 
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/10.png" width='400' height='300'/>    
 <br><br> 
 
-3. Virtual Box will keep asking you to select the hardware spec for your virtual machine. You can setup the hardware as you like but we recommend you not to change the default vaue too much. The following table can be used as a reference. Be aware that minimum memory that minix3 need is 64MB.
+3. Virtual Box will keep asking you to select the hardware spec for your virtual machine. You can setup the hardware as you like but we recommend you not to change the default vaue too much. The following table can be used as a reference. Be aware that minimum memory that minix3 need is 64MB. <br>
 
     Hardware | Value
     ------------ | -------------
@@ -58,15 +58,16 @@ Minix 3 is a free and open-source operating system. Its source file can be downl
     Storage on physical hard disk | Dynamically allocated
 <br><br>    
 
-4. Now you should be able to see your new virtual machine on the left column of the Virtual Box.
+4. Now you should be able to see your new virtual machine on the left column of the Virtual Box. <br>
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/15.png" width='400' height='300'/>   
 <br><br>    
 
-5. Select the virtual machine you just created, click `Setting` which is a yellow gear icon on top left of the windows. In the setting page, go to `Storage` section and click little CD icon that follow `Empty`. On the Attributes subsection, click another CD icon and select `Choose Virtual Optical Disk File`
+5. Select the virtual machine you just created, click `Setting` which is a yellow gear icon on top left of the windows. In the setting page, go to `Storage` section and click little CD icon that follow `Empty`. On the Attributes subsection, click another CD icon and select `Choose Virtual Optical Disk File`. <br>
+    
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/16.png" width='420' height='300'/>   
 <br><br>
 
-6. On the windows that poped up, find the minix3 ISO file you downloaded in previous ste and open it. Now you successfully load the minix image into the virtual machine you just created.
+6. On the windows that poped up, find the minix3 ISO file you downloaded in previous ste and open it. Now you successfully load the minix image into the virtual machine you just created. <br>
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/17.png" width='400' height='300'/>   
 <br><br>
 # 
