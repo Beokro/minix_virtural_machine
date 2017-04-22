@@ -17,16 +17,13 @@ First of all you need to install VirtualBox on your computer. This can be easily
 
 ### Step by step instruction
 
-1. Visit virtual box org [website][] and select `OS X hosts` to download the virtualBox installing application.
+1. Visit virtual box org [website][] and select `OS X hosts` to download the virtualBox installing application. <br><br>
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/1.png" width='600' height='337'/>  
 <br><br>
 
-2. Once the downloading is finsihed, you should have a dmg format file like the picture below. Double clicking this file to start the installation.
+2. Once the downloading is finsihed, you should have a dmg format file like the picture below. Double clicking this file to start the installation. Keep selecting continue until the installation is finished. <br>
 
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png" width='400' height='300'/>
-<br><br>
-
-3. Keep selecting continue until the installation is finished.
 <br><br>
 
 ## Minix3 source
@@ -58,7 +55,7 @@ Minix 3 is a free and open-source operating system. Its source file can be downl
     Storage on physical hard disk | Dynamically allocated
 <br><br>    
 
-4. Now you should be able to see your new virtual machine on the left column of the Virtual Box. <br>
+4. Now you should be able to see your new virtual machine on the left column of the Virtual Box. <br><br>
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/15.png" width='400' height='300'/>   
 <br><br>    
 
@@ -67,7 +64,7 @@ Minix 3 is a free and open-source operating system. Its source file can be downl
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/16.png" width='420' height='300'/>   
 <br><br>
 
-6. On the windows that poped up, find the minix3 ISO file you downloaded in previous ste and open it. Now you successfully load the minix image into the virtual machine you just created. <br>
+6. On the windows that poped up, find the minix3 ISO file you downloaded in previous ste and open it. Now you successfully load the minix image into the virtual machine you just created. <br><br>
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/17.png" width='400' height='300'/>   
 <br><br>
 # 
