@@ -22,6 +22,7 @@ First of all you need to install VirtualBox on your computer. This can be easily
 
 
 2. Once the downloading is finsihed, you should have a dmg format file like the picture below. Double clicking this file to start the installation.
+
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png" width='400' height='300'/>
 
 3. Keep selecting continue until the installation is finished.
