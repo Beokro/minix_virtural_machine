@@ -35,9 +35,7 @@ Minix 3 is a free and open-source operating system. Its source file can be downl
 
 # Loading Image
 
-Now we have all the matrials we need to start the insatllation. Let's go ahead and load the Minix image into the Virtual Box.
-
-1. Open the Virtual Box application. If you can not find it, press F4 to enter the application page and use the serach bar at top to locate Virtual Box. 
+1. Now we have all the matrials we need to start the insatllation. Let's go ahead and load the Minix image into the Virtual Box. Open the Virtual Box application. If you can not find it, press F4 to enter the application page and use the serach bar at top to locate Virtual Box. 
 
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/6.png" width='400' height='300'/> 
 
