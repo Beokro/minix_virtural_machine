@@ -77,9 +77,50 @@ How to install minix3 in Mac OS system
 
 ### step 4: Install the minix3
 
+- 4a. To prepare for the installation, we click setting, then click storage. Then choose the empty and click cd icon to load a virtual optical Disk File **( ISO Image file )**.    
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/16.png" width='420' height='300'/>   
+
+- 4b. Choose the Image file we download in the ** step 2 ** and click open.   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/17.png" width='400' height='300'/>   
+
+- 4c. Now we have already set up our minix 3, then we click start.  
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/18.png" width='400' height='300'/>   
 
 
+- 4d. It will start the minix3 installtion image file and we type 1 and click enter to install Regular Minix3.  
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/19.png" width='400' height='300'/> 
+
+- 4e. Once, you see the login and just type root and click enter to continue.  
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/20.png" width='400' height='300'/>   
+
+- 4f. Type setup and click enter to contiue set up.
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/21.png" width='400' height='300'/>   
+
+
+- 4g. In this step, we recommended you can just keep cliking Enter to set up by the default. **(if you are not expert about minix3, just follow the default set.)**     
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/22.png" width='400' height='300'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/23.png" width='400' height='300'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/24.png" width='400' height='300'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/25.png" width='400' height='300'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/26.png" width='400' height='300'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/27.png" width='400' height='300'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/28.png" width='400' height='300'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/29.png" width='400' height='300'/>  
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/30.png" width='400' height='300'/>   
+
+
+- 4h. After set up, just wait the installation untill it stops.   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/31.png" width='400' height='300'/>   
+
+
+- 4i. We are done with the installation. Type reboot to exit the installtion. 
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/32.png" width='400' height='300'/>   
 
 
 
 ---
+
+### step 5: Start minix3
+
+
+
