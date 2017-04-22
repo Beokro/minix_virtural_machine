@@ -14,7 +14,7 @@ How to install minix3 in Mac OS system
  ![image](https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/2.png)
 
 - 1c. Once you have this file, we can start to install the VirtualBox on the Mac. Double click this icon, then You will see this window below.
-  ![image](https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/3.png)
+  ![image](https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/3.png =250x)
 
 - 1d. Double click the virtualBox.pkg icon and wait it until give you this window.
   ![image](https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png)
