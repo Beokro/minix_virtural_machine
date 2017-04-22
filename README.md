@@ -110,7 +110,7 @@ How to install minix3 in Mac OS system
 
 
 - 4h. After set up, just wait the installation untill it stops.   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/31.png" width='250' height='150'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/31.png" width='400' height='150'/>   
 
 
 - 4i. We are done with the installation. Type reboot to exit the installtion. 
@@ -122,7 +122,7 @@ How to install minix3 in Mac OS system
 
 ### step 5: Start minix3
 - 5a. Go to SETTING, and click storage and CD icon to remove Disk from Virtual Drive.   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/33.png" width='400' height='300'/>   
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/33.png" width='430' height='230'/>   
 
 - 5b. Click start and type root to login in. You installed the minix3 successfully.
 <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/34.png" width='400' height='300'/> 
