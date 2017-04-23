@@ -77,7 +77,7 @@ Minix 3 is a free and open-source operating system. Its source file can be downl
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/18.png" width='400' height='300'/>   
 <br><br>
 
-2. Virtual Box will automatically loaded the image file from disk and give you couple options regarding botting procedure. Let's press enter to start minix regularly. <br>
+2. Virtual Box will automatically loaded the image file from disk and give you couple options regarding botting procedure. Let's press `Enter` to start minix regularly. <br>
 
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/19.png" width='400' height='300'/> <br><br>
 
@@ -86,7 +86,7 @@ Minix 3 is a free and open-source operating system. Its source file can be downl
 
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/21.png" width='400' height='300'/> <br><br>
 
-4. Minix3 will promot you more questions about the hardware spec you want to use. You can choose the value that best suits your need but if you are not sure what you want,  press 'Enter' to choose the default value. There are few tips we want to give in case you run in any unexpected situcation. <br>
+4. Minix3 will promot you more questions about the hardware spec you want to use. You can choose the value that best suits your need but if you are not sure what you want,  press `Enter` to choose the default value. There are few tips we want to give in case you run in any unexpected situcation. <br>
 	- if the screen blanks, press CTRL+F3 to select "software scrolling"<br>
 	- if things go wrong, press CTRL+C to abort and start over.<br>
 	<br><br>
