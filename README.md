@@ -1,6 +1,6 @@
 # How to install Minix on VirtualBox
 
-
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
 - [Prerequisites](#Prerequisites)
@@ -8,6 +8,8 @@
     - [Minix3 source](#Minix3-source)
 - [Loading Image](#Loading-Image)
 - [Installation](#Installation)
+
+<!-- markdown-toc end -->
 
 # Prerequisites
 
