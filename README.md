@@ -3,18 +3,18 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
-- [Prerequisites](#Prerequisites)
-    - [Virtual Box](#Virtual-Box)
-    - [Minix3 source](#Minix3-source)
-- [Loading Image](#Loading-Image)
-- [Installation](#Installation)
+- [Prerequisites](#prerequisites)
+    - [VirtualBox](#virtualbox)
+    - [Minix3 source](#minix3-source)
+- [Loading Image](#loading-image)
+- [Installation](#installation)
 
 <!-- markdown-toc end -->
 
 # Prerequisites
 
 This section will talk about how to get the required application and source before you can start. If you happened to have the following applications installed, you can skip this section. 
-## Virtual Box
+## VirtualBox
 
 First of all you need to install VirtualBox on your computer. This can be easily done by downloading the application from their websites or using a package manager tool like homebrew. 
 
