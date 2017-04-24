@@ -1,130 +1,105 @@
-# minix_virtural_machine
+# How to install minix on VirtualBox
 
 
-How to install minix3 in Mac OS system
+**Table of Contents**
 
----
+- [Prerequisities](#Prerequisities)
+    - [Virtual Box](#Virtual-Box)
+    - [Minix3 source](#Minix3-source)
+- [Loading Image](#Loading-Image)
+- [Installation](#Installation)
 
-### Step 1: install the virtualbox application (if you have virtualbox application, you can skip this step)
+# Prerequisities
 
-- 1a. Use your browser to access the virtual box org website: https://www.virtualbox.org/wiki/Downloads  
- <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/1.png" width='400' height='300'/>  
+This section will talk about how to get the required application and source before you can start. If you happened to have the following applications installed, you can skip this section. 
+## Virtual Box
 
+First of all you need to install VirtualBox on your computer. This can be easily done by downloading the application from their websites or using package manager tool like homebrew. 
 
-- 1b. Click OS X hosts to download the virtualBox installing on mac os, which is a dmg file like below.  
- <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/2.png" width='200' height='200'/>  
+### Step by step instruction
 
+1. Visit virtual box org [website][] and select `OS X hosts` to download the virtualBox installing application. <br><br>
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/1.png" width='600' height='337'/>  
+<br><br>
 
-- 1c. Once you have this file, we can start to install the VirtualBox on the Mac. Double click this icon, then You will see this window below.  
- <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/3.png" width='400' height='300'/>  
+2. Once the downloading is finsihed, you should have a dmg format file like the picture below. Double clicking this file to start the installation. Keep selecting continue until the installation is finished. <br>
 
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png" width='400' height='300'/>
+<br><br>
 
-- 1d. Double click the virtualBox.pkg icon and wait it until give you this window.  
-  <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png" width='400' height='300'/>  
+## Minix3 source
 
+Minix 3 is a free and open-source operating system. Its source file can be download from this [link][]. In this instruction, we will use version 3.3.0 (stable release) Iso Image. Once the downloading is finished, you should have a file named minix_Rxxx.iso. (xxx is the verison number you download).
 
-- 1e. Keep click continue until the installation is finished, then you can find the your virtualBox in the application page  
-   <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/5.png" width='400' height='300'/>
+<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/7.png" width='400' height='200'/>
+<br><br>
 
-- 1f. Double click the virtualBox icon. once you see this window below, you finish the step 1.  
-	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/6.png" width='400' height='300'/>  
+# Loading Image
 
----
+1. Now we have all the matrials we need to start the insatllation. Let's go ahead and load the Minix image into the Virtual Box. Open the Virtual Box application. If you can not find it, press F4 to enter the application page and use the serach bar at top to locate Virtual Box. <br>
 
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/6.png" width='400' height='300'/> 
+<br><br>
 
-### Step 2: download the minix3 iso Image File (if you have file, you can skip this step)
+2. Click new button on the top left of the window to create a new virtual machine. You can use whatever name you want, in this case we will just name it minix 3. Choose the type to be `Other` and the version to be `Other/Unknown`. Click continue. <br>
 
-- 2a. Use your browser to access the minix3 org webisite:http://wiki.minix3.org/doku.php?id=www:download:start  
-- 2b. Choose version 3.3.0 (stable release) to download minix3 Iso Image.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/7.png" width='400' height='200'/>  
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/10.png" width='400' height='300'/>    
+<br><br> 
 
+3. Virtual Box will keep asking you to select the hardware spec for your virtual machine. You can setup the hardware as you like but we recommend you not to change the default vaue too much. The following table can be used as a reference. Be aware that minimum memory that minix3 need is 64MB. <br>
 
-- 2c. You will get this file at final.   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/8.png" width='200' height='200'/>  
+    Hardware | Value
+    ------------ | -------------
+    Memory size | 128 MB
+    Hard disk | Create a virtual hard disk now
+    Hard disk file type | VHD (Virtual Hard Disk)
+    Storage on physical hard disk | Dynamically allocated
+<br><br>    
 
+4. Now you should be able to see your new virtual machine on the left column of the Virtual Box. <br><br>
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/15.png" width='400' height='300'/>   
+<br><br>    
 
+5. Select the virtual machine you just created, click `Setting` which is a yellow gear icon on top left of the windows. In the setting page, go to `Storage` section and click little CD icon that follow `Empty`. On the Attributes subsection, click another CD icon and select `Choose Virtual Optical Disk File`. <br>
+    
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/16.png" width='420' height='300'/>   
+<br><br>
 
-
----
-
-
-### Step 3: Initial the minix3 in virtual box  
-
-- 3a. Open your virtual box application and click new to create the opreate system on the virtual box.   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/9.png" width='400' height='300'/>    
-
-- 3b. Write the name of your opreate system, here we use "minix 3" as default. Set type as other and version as Other/Unknown. Then Click Continue.   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/10.png" width='400' height='300'/>    
-
-- 3c. Set the memory size. Here we use "128 MB" as default. **(The minimum memory size is 64 MB)**  Then Click Continue.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/11.png" width='400' height='300'/>   
-
-- 3d. Select create a virtual hard disk now and Click Continue.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/12.png" width='400' height='300'/>   
-
-- 3e. Select VHD(Virtual Hard Disk) and Click Continue.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/13.png" width='400' height='300'/>   
-
-- 3f. Select Dynamically allocated and Click Continue.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/14.png" width='400' height='300'/>   
-
-- 3g. At final, You can see the minix 3 at your Virtual Box.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/15.png" width='400' height='300'/>   
+6. On the windows that poped up, find the minix3 ISO file you downloaded in previous step and open it. Now you successfully load the minix image into the virtual machine you just created. <br><br>
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/17.png" width='400' height='300'/>   
+<br><br>
 
 
----
+# Installation 
+
+1. Go back to the Virtual Box main windows, select the virtual machine you created. Find the start buttom on the top left of the windows, click it to start the minix3. <br>
+
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/18.png" width='400' height='300'/>   
+<br><br>
+
+2. Virtual Box will automatically loaded the image file from disk and give you couple options regarding botting procedure. Let's press `Enter` to start minix regularly. <br>
+
+	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/19.png" width='400' height='300'/> <br><br>
 
 
-### step 4: Install the minix3
+3. Minix will ask you for the login name. Since you haven't create any account yet, let's use `root` to enter the root mode. Once you login into the system, type setup to confiure the minix system setup.  <br>
 
-- 4a. To prepare for the installation, we click setting, then click storage. Then choose the empty and click cd icon to load a virtual optical Disk File **( ISO Image file )**.    
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/16.png" width='420' height='300'/>   
+	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/21.png" width='400' height='300'/> <br><br>
 
-- 4b. Choose the Image file we download in the ** step 2 ** and click open.   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/17.png" width='400' height='300'/>   
+4. Minix3 will promot you more questions about the hardware spec you want to use. You can choose the value that best suits your need but if you are not sure what you want,  press `Enter` to choose the default value. There are few tips we want to give in case you run in any unexpected situcation. <br>
+	- if the screen blanks, press CTRL+F3 to select "software scrolling"<br>
+	- if things go wrong, press CTRL+C to abort and start over.<br>
+	<br><br>
 
-- 4c. Now we have already set up our minix 3, then we click start.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/18.png" width='400' height='300'/>   
+5. The installation is going to take a while, you can monitor the progress by looking at the number of remaining files. Once the installtion is finished, type rebot to exit the Minix 3.<br>
 
-
-- 4d. It will start the minix3 installtion image file and we type 1 and click enter to install Regular Minix3.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/19.png" width='400' height='300'/> 
-
-- 4e. Once, you see the login and just type root and click enter to continue.  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/20.png" width='400' height='300'/>   
-
-- 4f. Type setup and click enter to contiue set up.
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/21.png" width='400' height='300'/>   
+	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/32.png" width='400' height='300'/><br><br>
 
 
-- 4g. In this step, we recommended you can just keep cliking Enter to set up by the default. **(if you are not an expert with minix3, just follow the default set.)**     
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/22.png" width='400' height='300'/>   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/23.png" width='400' height='300'/>   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/24.png" width='400' height='300'/>   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/25.png" width='400' height='300'/>   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/26.png" width='400' height='300'/>   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/27.png" width='400' height='300'/>   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/28.png" width='400' height='300'/>   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/29.png" width='400' height='300'/>  
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/30.png" width='400' height='300'/>   
+6. The last step of installation is removing installtion media. This way minix won't load image on start up everytime. You can do that by following the same procedure as loading the image but select `Remove Disk form Virtual Drive` instead of `Choose Virtual Optical Disk File` <br>
 
+	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/33.png" width='430' height='230'/>   
 
-- 4h. After set up, just wait the installation untill it stops.   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/31.png" width='400' height='150'/>   
+[website]: https://www.virtualbox.org/wiki/Downloads
+[link]: http://wiki.minix3.org/doku.php?id=www:download:start
 
-
-- 4i. We are done with the installation. Type reboot to exit the installtion. 
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/32.png" width='400' height='300'/>   
-
-
-
----
-
-### step 5: Start minix3
-- 5a. Go to SETTING, and click storage and CD icon to remove Disk from Virtual Drive.   
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/33.png" width='430' height='230'/>   
-
-- 5b. Click start and type root to login in. You installed the minix3 successfully.
-<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/34.png" width='400' height='300'/> 
-
----
