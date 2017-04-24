@@ -5,6 +5,7 @@
 
 - [Prerequisites](#prerequisites)
     - [VirtualBox](#virtualbox)
+    	- [Step by step instruction](#step-by-step-instruction)
     - [Minix3 source](#minix3-source)
 - [Loading Image](#loading-image)
 - [Installation](#installation)
