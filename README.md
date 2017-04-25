@@ -85,7 +85,7 @@ Minix3 is a free and open-source operating system. Its source file can be downlo
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/21.png" width='400' height='300'/> <br><br>
 
 4. Minix3 will prompt you more questions about the hardware spec you want to use. You can choose the value that best suits your need, but if you are not sure what you want, press Enter to choose the default value. There are a few tips we want to give in case you run in any unexpected situation.  <br>
-	- If the screen blanks, press CTRL+F3 to select "software scrolling"<br>
+	- If the screen blanks, press CTRL+F3 to enable "software scrolling"<br>
 	- If things go wrong, press CTRL+C to abort and start over.<br>
 	<br><br>
 
