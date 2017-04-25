@@ -5,7 +5,6 @@
 
 - [Prerequisites](#prerequisites)
     - [VirtualBox](#virtualbox)
-    	- [Step by step instruction](#step-by-step-instruction)
     - [Minix3 source](#minix3-source)
 - [Loading Image](#loading-image)
 - [Installation](#installation)
@@ -15,17 +14,13 @@
 # Prerequisites
 
 This section will talk about how to get the required application and source before you can start. If you happened to have the following applications installed, you can skip this section. 
-## VirtualBox
+## VirtualBox 
 
-First of all you need to install VirtualBox on your computer. This can be easily done by downloading the application from their websites or using a package manager tool like homebrew. 
-
-### Step by step instruction
-
-1. Visit virtual box org [website][] and select `OS X hosts` to download the VirtualBox installing application. <br><br>
+1. First of all you need to install VirtualBox on your computer. This can be easily done by downloading the application from their websites or using a package manager tool like homebrew. Visit virtual box org [website][] and select `OS X hosts` to download the VirtualBox installing application. <br><br>
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/1.png" width='600' height='337'/>  
 <br><br>
 
-2. Once the downloading is finished, you should have a dmg format file like the picture below. Double clicking this file to start the installation. Keep selecting continue until the installation is finished. <br>
+2. Once the downloading is finished, you should have a dmg format file. Double clicking this file to start the installation. Keep selecting continue until the installation is finished. <br>
 
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png" width='400' height='300'/>
 <br><br>
