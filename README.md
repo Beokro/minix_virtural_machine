@@ -36,7 +36,7 @@ This section will talk about how to get the required application and source code
 
 2. Once the downloading is finished, you should have a dmg format file named VirtualBox-xxxx-OSX.dmg (xxx is version number). Double clicking this file to start the installation. You can change the file destination if you want to, otherwise keep selecting continue until the installation is finished. <br>
 
-    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png" width='400' height='315'/>
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png" width='550' height='433'/>
 <br><br>
 
 ## Minix3 source
@@ -50,7 +50,7 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 
 1. Now you have all the martials you need. Let's go ahead and load the Minix3 image into the VirtualBox. Open the VirtualBox application. If you can not find it, press F4 to enter the application page. Use the search bar at top to locate VirtualBox.  <br>
 
-    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/6.png" width='400' height='298'/> 
+    <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/6.png" width='550' height='410'/> 
 <br><br>
 
 2. Click new button on the top left of the window to create a new virtual machine. You can use whatever name you want, in this case we will just name it Minix3. Choose the type to be `Other` and the version to be `Other/Unknown`. Click continue. <br>
