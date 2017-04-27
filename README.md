@@ -97,7 +97,7 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 	- If things go wrong, press CTRL+C to abort and start over.<br>
 	<br><br>
 
-5. The installation is going to take a while, you can monitor the progress by looking at the number of remaining files. Once the installation is finished, type shutdown to exit the system.<br>
+5. The installation is going to take a while, you can monitor the progress by looking at the number of remaining files. Once the installation is finished, type poweroff to exit the system.<br>
 
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/32.png" width='550' height='335.5'/><br><br>
 
