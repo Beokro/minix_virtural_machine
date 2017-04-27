@@ -40,7 +40,7 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 
 # Loading Image
 
-1. Now you done all the preparation you need. Let's go ahead and load the Minix3 image into the VirtualBox. Open the VirtualBox application. If you can not find it, press F4 to enter the application page. Use the search bar at top to locate VirtualBox.  <br>
+1. Now you done all the parts you need. Let's go ahead and load the Minix3 image into the VirtualBox. Open the VirtualBox application. If you can not find it, press F4 to enter the application page. Use the search bar at top to locate VirtualBox.  <br>
 
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/6.png" width='550' height='410'/> 
 <br><br>
@@ -92,12 +92,12 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/21.png" width='550' height='340'/> <br><br>
 
 
-4. Minix3 will prompt you more questions about hardware specs and system options you want to use. You can choose the value that best suits your need. However if you are not sure what you want, press `Enter` to choose the default value. There are few tips we want to give in case you run into any unexpected situations.  <br>
+4. Minix3 will prompt you more questions about hardware specs and system options you want to use. You can choose the value that best suits your need. However if you are not sure what you want, press `Enter` to choose the default value. Few tips we want to give in case you run into any unexpected situations are  <br>
 	- If screen blanks, press CTRL+F3 to enable "software scrolling"<br>
 	- If things go wrong, press CTRL+C to abort and start over.<br>
 	<br><br>
 
-5. The installation is going to take a while, you can monitor the progress by looking at the number of remaining files. Once the installation is finished, type poweroff to exit the system.<br>
+5. The installation is going to take a while, you can monitor the progress by looking at the number of remaining files. Once the installation is finished, type poweroff to exit the system. Press `command` to regain the control of your mouse.<br>
 
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/32.png" width='550' height='335.5'/><br><br>
 
