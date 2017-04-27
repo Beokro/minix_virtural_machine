@@ -71,6 +71,7 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 
 6. On the windows that popped up, find the Minix3 ISO file you downloaded in the previous section and open it. Now you have successfully loaded the Minix3 image into the virtual machine you just created.  <br><br>
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/17.png" width='550' height='342'/>   
+
 <br><br>
 
 
@@ -90,6 +91,7 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/21.png" width='550' height='340'/> <br><br>
 
+
 4. Minix3 will prompt you more questions about hardware specs and system options you want to use. You can choose the value that best suits your need. However if you are not sure what you want, press `Enter` to choose the default value. There are few tips we want to give in case you run into any unexpected situations.  <br>
 	- If screen blanks, press CTRL+F3 to enable "software scrolling"<br>
 	- If things go wrong, press CTRL+C to abort and start over.<br>
@@ -100,9 +102,11 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/32.png" width='550' height='335.5'/><br><br>
 
 
+
 6. The last step of installation is removing the installation media. This way Minix3 won't load image on startup every time.  You can do that by following the same procedure as loading the image but select `Remove Disk from Virtual Drive` instead of `Choose Virtual Optical Disk File` <br>
 
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/33.png" width='550' height='204'/>   
+
 
 # Post Installation
 
