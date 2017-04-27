@@ -12,7 +12,6 @@
 - [Post Installation](#post-installation)
 
 <!-- markdown-toc end -->
->>>>>>> master
 
 # Introduction
 Minix is a free and open-source operating system based on a microkernel architecture. It was first release in 1987 and made available to university in course and research. Although Minix is not as compilcated as most modern commercial operating systems, it is still hard for beginner to install and configure it properly, due to the lack of graphical user interface. In this article, we will show you how to install Minix3(newest version of Minix) on VirtualBox. The host operating system we used is macOS but the procedure will be similar on Linux and Windows.
