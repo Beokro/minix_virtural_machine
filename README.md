@@ -3,13 +3,6 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
-<<<<<<< HEAD
-- [Prerequisites](#Prerequisites)
-    - [Virtual Box](#Virtual-Box)
-    - [Minix3 source](#Minix3-source)
-- [Loading Image](#Loading-Image)
-- [Installation](#Installation)
-=======
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
     - [VirtualBox](#virtualbox)
