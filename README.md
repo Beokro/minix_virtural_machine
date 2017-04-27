@@ -40,7 +40,7 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 
 # Loading Image
 
-1. Now you have all the martials you need. Let's go ahead and load the Minix3 image into the VirtualBox. Open the VirtualBox application. If you can not find it, press F4 to enter the application page. Use the search bar at top to locate VirtualBox.  <br>
+1. Now you done all the preparation you need. Let's go ahead and load the Minix3 image into the VirtualBox. Open the VirtualBox application. If you can not find it, press F4 to enter the application page. Use the search bar at top to locate VirtualBox.  <br>
 
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/6.png" width='550' height='410'/> 
 <br><br>
