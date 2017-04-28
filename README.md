@@ -114,7 +114,7 @@ Now you have your Minix3 installed on VirtualBox. Beofre you proceed any further
 ```sh
 # passwd
 ```
-Type the new password in next line. Be aware that no characters or `*` will appear as you type but it is being entered. Reboot you Minix3 and now you will be asked for a password in login. 
+Type the new password in next line. Be aware that no characters or `*` will appear as you type but it is being entered. Reboot you Minix3. If you see the system ask you for login password, congratulation! You have finished the last step of setting up Minix.
 
 [VirtualBox website]: https://www.virtualbox.org/wiki/Downloads
 [Minix3 website]: http://wiki.minix3.org/doku.php?id=www:download:start
