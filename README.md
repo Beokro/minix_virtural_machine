@@ -18,22 +18,22 @@ Minix is a free and open-source operating system based on a microkernel architec
 
 # Prerequisites
 
-This section will talk about how to get the required application and source code before you can proceed. If you happened to have the VirtualBox installed and Minix3 downloaded, you can skip this section. 
+This section will talk about how to get the required application and source codes before you can proceed. If you happened to have the VirtualBox installed and Minix3 downloaded, you can skip this section. 
 
 ## VirtualBox 
 
-1. First of all you need to install VirtualBox on your computer. This can be easily done by downloading the application from their websites or using a package manager tool like homebrew. In here we will show you the first way. Visit [VirtualBox website][] and select `OS X hosts` to download the VirtualBox installing application. <br><br>
+1. First of all you need to install VirtualBox on your computer. This can be easily done by downloading the installation package from their websites or using a package manager tool like homebrew. In here we will show you the first way. Visit [VirtualBox website][] and select `OS X hosts` to download the VirtualBox installing package. <br><br>
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/1.png" width='600' height='337'/>  
 <br><br>
 
-2. Once the downloading is finished, you should have a dmg format file named VirtualBox-xxxx-OSX.dmg (xxx is version number). Double clicking this file to start the installation. You can change the file destination if you want to, otherwise keep selecting continue until the installation is finished. <br>
+2. Once the downloading is finished, you should have a dmg format file named VirtualBox-xxxx-OSX.dmg (xxx is the version number). Double clicking this file to start the installation. You can change the file destination if you want to, otherwise keep selecting continue until the installation is finished. <br>
 
     <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/4.png" width='550' height='433'/>
 <br><br>
 
 ## Minix3 source
 
-Minix3's source file can be downloaded from [Minix3 website][]. In this instruction, we will use version 3.3.0 (stable release) ISO Image. Once the downloading is finished, you should have a file named minix_Rxxx.iso. (xxx is version number).
+Minix3's source file can be downloaded from [Minix3 website][]. In this instruction, we will use version 3.3.0 (stable release) ISO Image. Once the downloading is finished, you should have a file named minix_Rxxx.iso. (xxx is the version number).
 
 <img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/7.png" width='600' height='275'/>
 <br><br>
@@ -97,13 +97,13 @@ Minix3's source file can be downloaded from [Minix3 website][]. In this instruct
 	- If things go wrong, press CTRL+C to abort and start over.<br>
 	<br><br>
 
-5. The installation is going to take a while, you can monitor the progress by looking at the number of remaining files. Once the installation is finished, type poweroff to exit the system. Press `command` to regain the control of your mouse.<br>
+5. The installation is going to take a while, you can monitor the progress by looking at the number of remaining files. Once the installation is finished, type poweroff to exit the system. Press `command` on your keyboard to regain the control of your mouse.<br>
 
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/32.png" width='550' height='335.5'/><br><br>
 
 
 
-6. The last step of installation is removing the installation media. This way Minix3 won't load image on startup every time.  You can do that by following the same procedure as loading the image but select `Remove Disk from Virtual Drive` instead of `Choose Virtual Optical Disk File` <br>
+6. The last step of the installation is removing the installation media. This way Minix3 won't load image on startup every time.  You can do that by following the same procedure as loading the image but select `Remove Disk from Virtual Drive` instead of `Choose Virtual Optical Disk File` <br>
 
 	<img src="https://github.com/Beokro/minix_virtural_machine/raw/master/screenshots/33.png" width='550' height='204'/>   
 
@@ -114,7 +114,7 @@ Now you have your Minix3 installed on VirtualBox. Beofre you proceed any further
 ```sh
 # passwd
 ```
-Type the new password in next line. Be aware that no characters or `*` will appear as you type but it is being entered. Reboot you Minix3. If you see the system ask you for login password, congratulation! You have finished the last step of setting up Minix.
+Type the new password in next line. Be aware that no characters or `*` will appear as you type but it is being entered. Reboot you Minix3. If you see Minix ask you for the login password, congratulation! You have finished the last step of setting up Minix.
 
 [VirtualBox website]: https://www.virtualbox.org/wiki/Downloads
 [Minix3 website]: http://wiki.minix3.org/doku.php?id=www:download:start
